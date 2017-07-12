@@ -1,0 +1,28 @@
+body{
+  background-color: green;
+}
+
+div{
+  /*
+  Esta es la forma de tomar notas en CSS
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  border-radius: para hacer círculos
+  */
+  border:2px black dashed;
+}
+
+h2{
+  text-align: center;
+  width: 50%;
+  border: 1px red solid;
+  margin:auto;
+}
+
+#principal{
+  margin: 50px;
+  width: 60%;
+  height: 100px;
+  padding-top: 80px;
+}

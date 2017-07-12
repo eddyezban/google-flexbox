@@ -1,0 +1,48 @@
+h1{
+  color:pink;
+  font-size: 40px;
+  font-family: sans-serif
+}
+
+h1:hover{
+  color: green;
+}
+
+body{
+  background-image: url(http://proyectopuente.com.mx/wp-content/uploads/2016/07/vaquita.jpg);
+}
+
+p{
+  color:green;
+  font-size: 20px;
+  font-family: serif
+}
+
+ul{
+  font-family: fantasy;
+}
+
+.marino{
+  color: blue;
+}
+
+.terrestre{
+  color: brown;
+}
+
+.volador{
+  color:gray;
+}
+
+#vaquita{
+  font-family: monospace;
+  font-size: 50px;
+}
+
+#tigre{
+  font-size: 10px;
+}
+
+#leon{
+  font-weight: bold;
+}

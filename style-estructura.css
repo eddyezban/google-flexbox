@@ -1,0 +1,25 @@
+header{
+  background-color: green;
+}
+
+nav{
+  background-color: pink;
+}
+
+article{
+  background-color: gray;
+  float: left;
+}
+
+section{
+  background-color: purple;
+}
+
+aside{
+  background-color: cyan;
+  float: left;
+}
+
+footer{
+  clear: both;
+}

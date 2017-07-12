@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Formulario médico</h1>
+    <p>Favor de llenar la siguiente información relacionada con su consulta médica</p>
+  </body>
+  <form>
+    <label for="name">Nombre</label>
+    <br>
+    <input type="text" id="name" name="Nombre" placeholder="Ingresa tu nombre">
+    <br>
+    <label for="gender">Género</label>
+    <br>
+    <input type="radio" name="gender" id="gender" value="Hombre">Hombre
+    <br>
+    <input type="radio" name="gender" id="gender" value="Mujer">Mujer
+    <br>
+    <label for="date">Fecha</label>
+    <br>
+    <input type="date" name="Date" id="date" value="Fecha">
+    <br>
+    <label for="time">Hora</label>
+    <br>
+    <input type="time" name="" id="time" value="Hora">
+    <br>
+    <label for="doctor">Favor de seleccionar a un doctor</label>
+    <br>
+    <input type="checkbox" name="Doctor" id="doctor" value="Escoge a un doctor">Juan
+    <br>
+    <input type="checkbox" name="Doctor" id="doctor" value="Escoge a un doctor">Paco
+    <br>
+    <input type="checkbox" name="Doctor" id="doctor" value="Escoge a un doctor">Pedro
+    <br>
+    <input type="checkbox" name="Doctor" id="doctor" value="Escoge a un doctor">Andres
+    <br>
+    <input type="checkbox" name="Doctor" id="doctor" value="Escoge a un doctor">Pablo
+    <br>
+    <label for="doctor">Favor de seleccionar a un doctor</label>
+    <br>
+    <select name="doctores" id="doctor">
+      <option value="" disabled selected>Selecciona a un doctor</option>
+      <option value="Juan">Juan</option>
+      <option value="Paco">Paco</option>
+      <option value="Pedro">Pedro</option>
+      <option value="Andres">Andres</option>
+      <option value="Pablo">Pablo</option>
+    </select>
+    <label for="payment">Forma de pago</label>
+    <br>
+    <input type="radio" name="payment" id="payment" value="Efectivo">Efectivo
+    <br>
+    <input type="radio" name="payment" id="payment" value="Tarjeta">Tarjeta
+    <br>
+    <input type="submit" name="Send" value="Send">
+    <!--form action es la forma de mandar la informacion del formulario a algun lado-->
+  </form>
+</html>

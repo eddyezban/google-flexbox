@@ -1,0 +1,27 @@
+h1{
+  color:red;
+  font-size: 40px;
+  font-family: sans-serif
+}
+
+p{
+  color: gray;
+  font-size: 20px;
+  font-family: serif
+}
+
+ul{
+  font-family: helvetica
+}
+
+.hombre{
+  color: green
+}
+
+.mujer{
+  color: purple
+}
+
+.cercanos{
+  font-size: 60px;
+}

@@ -1,0 +1,28 @@
+header{
+  background-color: gray;
+  text-align: center;
+}
+
+nav{
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+article{
+  float:left;
+}
+
+section{
+  background-color: pink;
+}
+
+aside{
+  float:left;
+}
+
+footer{
+  background-color: gray;
+  clear:both;
+  text-align: center;
+}
